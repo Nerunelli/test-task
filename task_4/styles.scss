@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#arr-prev > img {
+  transform: rotate(180deg);
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 20px;
+  outline: none;
+  cursor: pointer;
+  & > img {
+    width: 20px;
+  }
+}
+
+.picture {
+  width: 70%;
+  display: none;
+}

@@ -1,0 +1,29 @@
+nav {
+  padding: 14px 40px;
+  box-shadow: #0000001a 0px 4px 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #707070;
+  font-weight: bold;
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.content {
+  padding: 30px 130px;
+
+  div {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #707070;
+}

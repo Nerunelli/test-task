@@ -1,0 +1,35 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  img {
+    max-height: 400px;
+    max-width: 60%;
+  }
+
+  p {
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  @media (max-width: 600px) {
+    &,
+    &:nth-child(odd) {
+      flex-direction: column;
+    }
+
+    p {
+      padding: 20px;
+    }
+  }
+}

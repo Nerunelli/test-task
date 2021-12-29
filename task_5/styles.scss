@@ -1,0 +1,114 @@
+header {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 40px;
+  transition: all 0.5s;
+}
+
+.big-header {
+  height: 50px;
+  background: #fff;
+  color: #000;
+}
+
+.big-header > .logo {
+  background-color: #000;
+}
+
+.small-header {
+  height: 30px;
+  background: #000;
+  color: #fff;
+}
+
+.small-header > .logo {
+  background-color: #fff;
+}
+
+.logo {
+  mask-position: center left;
+  height: 100%;
+  width: 30%;
+  mask-image: url(./images/FinnFlare.svg);
+  mask-repeat: no-repeat;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  height: 100%;
+  margin-right: 40px;
+}
+
+.menu-1 {
+  display: flex;
+  cursor: default;
+  height: 30px;
+  align-items: center;
+  padding: 0 20px;
+  transition: height 0.5s;
+}
+
+.big-header .menu-1 {
+  height: 50px;
+}
+
+.sub {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: #fff;
+  flex-direction: column;
+  width: 150px;
+  color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.big-header .sub {
+  top: 50px;
+}
+
+.sub-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+  transition: background-color 0.4s;
+
+  &:hover {
+    background-color: #eee;
+  }
+
+  &:active {
+    background-color: #dddddd;
+  }
+}
+
+.dropdown:hover .sub {
+  display: flex;
+}
+
+.menu-2 {
+  cursor: pointer;
+}
+
+.wrapper {
+  margin-top: 80px;
+  padding: 0 80px;
+  line-height: 1.6;
+}
+
+.wrapper > div {
+  margin-bottom: 20px;
+}

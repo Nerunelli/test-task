@@ -1,0 +1,31 @@
+nav {
+  padding: 14px 40px;
+  -webkit-box-shadow: #0000001a 0px 4px 10px;
+          box-shadow: #0000001a 0px 4px 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #707070;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+.content {
+  padding: 30px 130px;
+}
+
+.content div {
+  margin-bottom: 30px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #707070;
+}
+/*# sourceMappingURL=styles.css.map */

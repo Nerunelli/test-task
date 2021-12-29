@@ -1,0 +1,123 @@
+.container {
+  width: 1000px;
+  height: 750px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pic {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1000px;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+  top: 0;
+  left: 0;
+}
+
+.pic-2 {
+  display: none;
+}
+
+.shadow {
+  width: 1000px;
+  height: 750px;
+  background: #000;
+  opacity: 0;
+  display: none;
+}
+
+.modal-1 {
+  position: absolute;
+  width: 600px;
+  top: 1000px;
+  left: 200px;
+}
+
+.modal-2 {
+  position: absolute;
+  width: 400px;
+  top: 1000px;
+  left: 294px;
+}
+
+.card {
+  position: absolute;
+  display: none;
+  width: 687px;
+  height: 686px;
+  top: 41px;
+  left: 313px;
+  background-image: url(./images/layer-3.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s linear;
+  transition: opacity 0.4s linear;
+}
+
+.dialog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 580px;
+  background-color: #4aa6a7;
+  opacity: 90%;
+  height: 0px;
+  width: 0px;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-image: url(./images/dialog.svg);
+          mask-image: url(./images/dialog.svg);
+}
+
+.text {
+  position: absolute;
+  margin-top: 470px;
+  margin-left: 460px;
+  color: #fff;
+  opacity: 1;
+  font-size: 42px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.circle-1 {
+  position: absolute;
+  top: 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  border: 0px solid #e8ebea;
+  height: 0px;
+  width: 0px;
+}
+
+.circle-2 {
+  position: absolute;
+  top: 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  border: 0px solid #4aa6a7;
+  height: 0px;
+  width: 0px;
+}
+
+.touch-point {
+  position: absolute;
+}
+/*# sourceMappingURL=styles.css.map */
