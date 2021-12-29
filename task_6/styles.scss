@@ -21,31 +21,32 @@ footer {
   @media (max-width: 576px) {
     padding: 30px 30px 0;
   }
-}
 
-.info {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  width: 100%;
-  flex-wrap: wrap;
-}
+  .info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
 
-.info-block {
-  margin-bottom: 20px;
-  margin-right: 30px;
-  &:last-child {
-    margin-right: 0;
+    .info-block {
+      margin-bottom: 20px;
+      margin-right: 30px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .title {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+
+      .link {
+        color: #aaaaaa;
+        margin-bottom: 10px;
+      }
+    }
   }
-}
-
-.title {
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-.link {
-  color: #aaaaaa;
-  margin-bottom: 10px;
 }

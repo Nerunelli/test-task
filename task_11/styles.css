@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.pic {
+.container .pic {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,11 +23,11 @@
   left: 0;
 }
 
-.pic-2 {
+.container .pic-2 {
   display: none;
 }
 
-.shadow {
+.container .shadow {
   width: 1000px;
   height: 750px;
   background: #000;
@@ -35,21 +35,21 @@
   display: none;
 }
 
-.modal-1 {
+.container .modal-1 {
   position: absolute;
   width: 600px;
   top: 1000px;
   left: 200px;
 }
 
-.modal-2 {
+.container .modal-2 {
   position: absolute;
   width: 400px;
   top: 1000px;
   left: 294px;
 }
 
-.card {
+.container .card {
   position: absolute;
   display: none;
   width: 687px;
@@ -64,7 +64,7 @@
   transition: opacity 0.4s linear;
 }
 
-.dialog {
+.container .dialog {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,7 @@
           mask-image: url(./images/dialog.svg);
 }
 
-.text {
+.container .text {
   position: absolute;
   margin-top: 470px;
   margin-left: 460px;
@@ -95,7 +95,7 @@
   letter-spacing: 2px;
 }
 
-.circle-1 {
+.container .circle-1 {
   position: absolute;
   top: 10px;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -106,7 +106,7 @@
   width: 0px;
 }
 
-.circle-2 {
+.container .circle-2 {
   position: absolute;
   top: 10px;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -117,7 +117,7 @@
   width: 0px;
 }
 
-.touch-point {
+.container .touch-point {
   position: absolute;
 }
 /*# sourceMappingURL=styles.css.map */

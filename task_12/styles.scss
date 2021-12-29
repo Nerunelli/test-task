@@ -1,2 +1,112 @@
-.modal {
+.open-popup {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #707070;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  background: #fff;
+
+  &:active {
+    background: #dddddd;
+  }
+}
+
+.grey-bg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #70707080;
+}
+
+.popup {
+  display: block;
+  position: absolute;
+  top: 20vh;
+  left: calc(50vw - 250px);
+  border-radius: 10px;
+  background: #fff;
+  width: 500px;
+  padding: 30px;
+  z-index: 1000;
+
+  .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -12px;
+    left: 484px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #70707080;
+    border-radius: 50%;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .wrapper {
+    width: 250px;
+    margin-bottom: 20px;
+
+    .label {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .input {
+      box-sizing: border-box;
+      margin-right: 20px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 2px solid #70707080;
+
+      &:focus {
+        outline: none;
+        border: 2px solid #599e03;
+      }
+    }
+
+    .error {
+      border: 2px solid #a04141;
+    }
+
+    .validation {
+      display: none;
+    }
+
+    .active {
+      font-size: 14px;
+      display: inline-block;
+      color: #a04141;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    align-self: flex-end;
+
+    .submit {
+      color: #707070;
+      background: none;
+      border: 1px solid #70707080;
+      padding: 8px 10px;
+      border-radius: 8px;
+      transition: all 0.3s;
+
+      &:hover {
+        background: #eeeeee;
+      }
+
+      &:active {
+        background: #dddddd;
+      }
+    }
+  }
 }

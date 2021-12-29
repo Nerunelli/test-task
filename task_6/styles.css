@@ -32,7 +32,7 @@ footer {
   }
 }
 
-.info {
+footer .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,22 +45,22 @@ footer {
       flex-wrap: wrap;
 }
 
-.info-block {
+footer .info .info-block {
   margin-bottom: 20px;
   margin-right: 30px;
 }
 
-.info-block:last-child {
+footer .info .info-block:last-child {
   margin-right: 0;
 }
 
-.title {
+footer .info .info-block .title {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-.link {
+footer .info .info-block .link {
   color: #aaaaaa;
   margin-bottom: 10px;
 }

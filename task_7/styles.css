@@ -4,14 +4,14 @@ nav {
           box-shadow: #0000001a 0px 4px 10px;
 }
 
-.link {
+nav .link {
   text-decoration: none;
   color: #707070;
   font-weight: bold;
   margin-right: 40px;
 }
 
-.link:last-child {
+nav .link:last-child {
   margin-right: 0;
 }
 
@@ -23,7 +23,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.title {
+.content .title {
   text-transform: uppercase;
   font-weight: bold;
   color: #707070;

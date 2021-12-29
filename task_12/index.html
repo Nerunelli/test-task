@@ -9,7 +9,29 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <a href="" class="open"></a>
-    <div class="modal"></div>
+    <a href="" class="open-popup">Открыть форму</a>
+    <div class="grey-bg"></div>
+    <div class="popup">
+      <div class="close">x</div>
+      <div class="wrapper">
+        <div class="label">email</div>
+        <input type="text" class="input" style="width: 250px" />
+        <span class="validation"></span>
+      </div>
+      <div class="wrapper">
+        <div class="label">что-то не короче 3 символов</div>
+        <input type="text" class="input" />
+        <span class="validation">Минимальная длина 3 символа</span>
+      </div>
+      <div class="wrapper">
+        <div class="label">что-то</div>
+        <input type="text" class="input" />
+      </div>
+
+      <div class="button-wrapper">
+        <button class="submit">Отправить</button>
+      </div>
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
